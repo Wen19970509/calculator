@@ -1,7 +1,7 @@
 
 ## Ratio Calculator
 
-[點此開算]()
+[點此開算](https://img-ratio-calculator.netlify.app/)
 
 計算圖片比例好困擾？ <br/>
 比例計算機解決你的煩惱！(單押x1)
