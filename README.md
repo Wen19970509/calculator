@@ -1,6 +1,19 @@
-### 使用方式
 
-    此為NextJS+TailwindCSS專案範本，以NextJS+TailwindCSS完成基礎設定
+## Ratio Calculator
+
+[點此開算]()
+
+計算圖片比例好困擾？ <br/>
+比例計算機解決你的煩惱！(單押x1)
+
+- 輸入圖片寬(W)、高(H)自動計算比例
+- 輸入比例，輸入最大寬/高，自動計算相對應尺寸
+
+###比例計算機，需求溝通不當機。
+
+### 本機使用方式
+
+
 
     ```
     npm ci
@@ -8,17 +21,3 @@
 
     npm run  dev
     ```
-
-### Tailwindcss
-
-[官方文件](https://tailwindcss.tw/docs)
-
--   TailwindCSS 引入於 `global.css` ，自訂新增 className 和新增元件務必依照`@layer`規範寫於`global.css`
-    <br>
-    **勿任意增加 inlinestyle**
-
--   `postcss.config.js` 內 `'tailwindcss/nesting': {}` 預設註解<br>
-    開啟可使`global.css`支持 nesting，無必要勿開啟，會影響 dev 開發時 compiling 效能
-
--   `tailwind.config.js` 撰寫 TailwindCSS 自訂設定 <br>
-    [設定](https://tailwindcss.tw/docs/configuration)
