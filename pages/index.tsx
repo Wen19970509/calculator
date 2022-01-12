@@ -1,4 +1,4 @@
-import ImageCal from '@components/Image-calculator';
+import ImageCal from "@components/Image-calculator";
 const Home = () => {
     return (
         <div className='flex flex-col justify-evenly'>
