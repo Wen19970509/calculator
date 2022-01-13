@@ -43,6 +43,11 @@ const ImageCal = () => {
     };
     const handleClick = (e) => {
         e.preventDefault();
+        if(sizeW == 0 && sizeH == 0){
+            alert("WTF? size can't be 0")
+            setSizeH('')
+            setSizeW('')
+        }
         if (sizeW && sizeH && ratioW && ratioH) {
             if (focusRef.current == 'sizeW' || focusRef.current == 'sizeH') {
                 calRatio();
