@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <React.Fragment>
             <Head>
-                <title>快速比例計算機</title>
+                <title>Ratio Calculator</title>
                 <link rel='preconnect' href='https://fonts.googleapis.com' />
                 <link rel='preconnect' href='https://fonts.gstatic.com' />
                 <link href='https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap' rel='stylesheet' />
